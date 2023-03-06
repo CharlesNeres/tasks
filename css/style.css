@@ -8,3 +8,33 @@
 html, body{
     height: 100%;
 }
+
+body{
+    background-color: #E6675E;
+    font-family: 'Rubik', sans-serif;
+}
+
+.create-task-form{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.create-task-form input,
+.create-task-form button{
+    padding: .8em;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.create-task-form button{
+    background-color: #F2C157;
+    color: #fff;
+    font-weight: bold;
+}
