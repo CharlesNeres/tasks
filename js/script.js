@@ -15,9 +15,15 @@ function createTask(formInput){
         <div class="task">
             <input type="checkbox" name="task" id="" value="">
             <span>${formInput.value}</span>
-            <i class="delete-task bi bi-trash" title="Delete task"></i>
+            <i class="delete-task bi bi-trash" title="Delete task" onclick="deleteTask(event)"></i>
         </div>
     `;
 
     tasks.innerHTML += task;
+}
+
+function deleteTask(e){
+    let task = e.target.parentNode;
+    
+    tasks.removeChild(task);
 }
