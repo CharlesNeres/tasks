@@ -65,3 +65,7 @@ h1{
     float: right; 
     cursor: pointer;   
 }
+
+.finishTask{
+    text-decoration: line-through;
+}
