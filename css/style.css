@@ -61,6 +61,20 @@ h1{
     -o-border-radius: 3px;
 }
 
+.task input[type="text"]{
+    border: none;
+}
+
+.edit-task{
+    float: right; 
+    cursor: pointer;   
+    margin-right: .5em;
+}
+
+.form-edit-task{
+    display: inline-block;
+}
+
 .delete-task{
     float: right; 
     cursor: pointer;   
